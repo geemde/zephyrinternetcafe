@@ -73,6 +73,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="staff_AddDuration.Designer.vb">
+      <DependentUpon>staff_AddDuration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="staff_AddDuration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff_Dashboard.Designer.vb">
+      <DependentUpon>staff_Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="staff_Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff_ShopItems.Designer.vb">
+      <DependentUpon>staff_ShopItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="staff_ShopItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff_TransactionReport.Designer.vb">
+      <DependentUpon>staff_TransactionReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="staff_TransactionReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="user_Dashboard.Designer.vb">
       <DependentUpon>user_Dashboard.vb</DependentUpon>
     </Compile>
@@ -101,6 +125,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="user_Payment.Designer.vb">
+      <DependentUpon>user_Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user_Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_Shop.Designer.vb">
+      <DependentUpon>user_Shop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user_Shop.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="user_SignUp.Designer.vb">
       <DependentUpon>user_SignUp.vb</DependentUpon>
     </Compile>
@@ -109,6 +145,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="staff_AddDuration.resx">
+      <DependentUpon>staff_AddDuration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff_Dashboard.resx">
+      <DependentUpon>staff_Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff_ShopItems.resx">
+      <DependentUpon>staff_ShopItems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff_TransactionReport.resx">
+      <DependentUpon>staff_TransactionReport.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="user_Dashboard.resx">
       <DependentUpon>user_Dashboard.vb</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +168,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_Payment.resx">
+      <DependentUpon>user_Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_Shop.resx">
+      <DependentUpon>user_Shop.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="user_SignUp.resx">
       <DependentUpon>user_SignUp.vb</DependentUpon>
