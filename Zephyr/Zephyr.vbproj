@@ -73,6 +73,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="manager_ComputerManagement.Designer.vb">
+      <DependentUpon>manager_ComputerManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="manager_ComputerManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manager_ShopItemManagement.Designer.vb">
+      <DependentUpon>manager_ShopItemManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="manager_ShopItemManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manager_TransactionReportManagement.Designer.vb">
+      <DependentUpon>manager_TransactionReportManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="manager_TransactionReportManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manager_UserManagement.Designer.vb">
+      <DependentUpon>manager_UserManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="manager_UserManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="staff_AddDuration.Designer.vb">
       <DependentUpon>staff_AddDuration.vb</DependentUpon>
     </Compile>
@@ -145,6 +169,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="manager_ComputerManagement.resx">
+      <DependentUpon>manager_ComputerManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manager_ShopItemManagement.resx">
+      <DependentUpon>manager_ShopItemManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manager_TransactionReportManagement.resx">
+      <DependentUpon>manager_TransactionReportManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manager_UserManagement.resx">
+      <DependentUpon>manager_UserManagement.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="staff_AddDuration.resx">
       <DependentUpon>staff_AddDuration.vb</DependentUpon>
     </EmbeddedResource>

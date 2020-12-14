@@ -28,9 +28,8 @@ Partial Class staff_ShopItems
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -43,7 +42,6 @@ Partial Class staff_ShopItems
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.Button6)
         Me.Panel1.Location = New System.Drawing.Point(-1, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(5)
         Me.Panel1.Name = "Panel1"
@@ -95,14 +93,13 @@ Partial Class staff_ShopItems
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Zephyr"
         '
-        'Button6
+        'DataGridView1
         '
-        Me.Button6.Location = New System.Drawing.Point(203, 505)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(123, 33)
-        Me.Button6.TabIndex = 1
-        Me.Button6.Text = "Add"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(387, 75)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(569, 371)
+        Me.DataGridView1.TabIndex = 12
         '
         'Label3
         '
@@ -112,14 +109,6 @@ Partial Class staff_ShopItems
         Me.Label3.Size = New System.Drawing.Size(82, 18)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Shop Items"
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(387, 75)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(569, 371)
-        Me.DataGridView1.TabIndex = 12
         '
         'staff_ShopItems
         '
@@ -147,7 +136,6 @@ Partial Class staff_ShopItems
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Label3 As Label
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Label3 As Label
 End Class

@@ -1,0 +1,3 @@
+﻿Public Class manager_TransactionReportManagement
+
+End Class
